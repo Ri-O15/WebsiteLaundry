@@ -1,0 +1,138 @@
+.gradient{
+    background-image:linear-gradient(270deg, #00D5FF 0%, #0B63FF 58.54%, #1400FF 97.22%);
+}
+
+body{
+    background: #03045E;
+}
+
+/* .home{
+    background: linear-gradient(180deg, #FF0000 0%, #FFFFFF 100%);
+    color: transparent; 
+    background-clip: text;
+    -webkit-background-clip: text;
+
+} */
+.service, .blog, .home, .pricing, .location{
+    background: white;
+    color: transparent; 
+    background-clip: text;
+    -webkit-background-clip: text; 
+}
+ul li a:hover{
+    background: rgb(255, 0, 0);
+    color: transparent; 
+    background-clip: text;
+    -webkit-background-clip: text; 
+    
+
+}
+
+.active{
+        background-color: #FF0000;
+        color: transparent; 
+        background-clip: text;
+        -webkit-background-clip: text;
+    
+}
+
+.kotak{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(117.33deg, rgba(255, 255, 255, 0.6) 6.08%, rgba(255, 255, 255, 0.6) 91.71%);
+}
+.kotak1{
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    left: 5%;
+    justify-content: center;
+    align-items: center;
+    top: 110%;
+    margin-bottom: 15px;
+    background: linear-gradient(117.33deg, rgba(255, 255, 255, 0.6) 6.08%, rgba(255, 255, 255, 0.6) 91.71%);
+}
+.circle{
+    width: 35%;
+    height: 70%;
+    right: 15%;
+    top: 25%;
+    background: linear-gradient(180deg, #8000FF 0%, #FF4C00 83.07%);
+}
+
+.orang{
+    position: absolute;
+    right: 15%;
+    bottom: 3%;
+}
+.text{
+    left: 40%;
+    bottom: -40%;
+}
+
+.text1{
+    left: 17%;
+    top: 50%;
+}
+.text2{
+    left: 17%;
+    top: 60%;
+}
+.text3{
+    left: 17%;
+}
+
+
+.gabung{
+    position: absolute;
+    left: 17%;
+    top: 70%;
+    justify-content: end;
+}
+
+.req{
+    bottom: 12%;
+    left: 17%;
+
+}
+.v3{
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    top: 70%;
+}
+
+.kotak2{
+    width: 70%;
+    height: 15vh;
+    left: 15%;
+    top: 100%;
+}
+
+.pricingL{
+    top: 10%;
+    left: 2%;
+}
+
+.pricingL>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+.textP{
+    left: 15%;
+    top: 10%;
+}
+/* 
+.table{
+ background-color: #03045E;
+} */
+
+.tableP{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}

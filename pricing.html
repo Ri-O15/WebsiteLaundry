@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="/gambar/Vector.png" alt="Logo" width="300" class="d-inline-block">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/gambar/logo.png" alt="Logo" width="90" class="d-inline-block align-text-top mx-5"></a>
+        <button class="navbar-toggler" type="button" data-bs-theme="dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 mx-5">
+            <li class="nav-item">
+              <a class="nav-link mx-5 home" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 service" href="service.html">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 pricing" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 location" href="location.html">Find Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 blog" href="blog.html">Blog</a>
+            </li>
+            <li>
+              <button class="btn text-white border border-primary ms-3" type="submit">Button</button>
+              </span>
+            </li>
+            <li>
+              <button class="btn btn-primary gradient ms-3" type="submit">Button</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class=" position-absolute bottom-0 end-0"><img src="/gambar/kuning.png" alt="Logo" width="300" class="d-inline-block"></div>
+    <div class="rounded border position-absolute top-50 start-50 translate-middle kotak">
+        <div>
+            <ul class="rounded position-absolute pricingL" style="height: 100%;padding-top: 2%; padding-right: 1%; left: 0; top: 0%; list-style-type: none; background-color: white;">
+                <li class="pb-5">
+                    <a href="">Booking</a>
+                </li>
+                <li class="pb-5">
+                    <a class="pricing" href="pricing.html">Transaction</a>
+                </li>
+                <li class="pb-5">
+                    <a href="">Order Status</a>
+                </li>
+                <li class="pb-5">
+                    <a href="">History</a>
+                </li>
+                <li class="pb-5">
+                    <a href="">Customer Service</a>
+                </li>
+                <li>
+                    <a href="">Account</a>
+                </li>
+            </ul>
+
+            <div class="position-absolute text-capitalize textP">pesanan 05/05/2024</div>
+        </div>
+        <div>
+            <table class="tableP text-capitalize">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">qty</th>
+                    <th scope="col" class="text-center">harga</th>
+                    <th scope="col">berat</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="m-1 px-5 pb-2">celana kain</td>
+                    <td class="m-1 text-center">3</td>
+                    <td class="m-1 px-5 pb-2">rp2.000</td>
+                    <td>500g</td>
+                  </tr>
+                  <tr>
+                    <td class="m-5 px-5 pb-2">baju tidur</td>
+                    <td class="m-1 text-center">2</td>
+                    <td class="m-5 px-5 pb-2">rp2.000</td>
+                    <td>500g</td>
+                  </tr>
+                  <tr>
+                    <td class="m-5 px-5 pb-2">sepatu</td>
+                    <td class="m-1 text-center">2</td>
+                    <td class="m-5 px-5 pb-2">rp30.000</td>
+                  </tr>
+                  <tr>
+                    <td class="m-5 px-5 pb-2">sepatu</td>
+                    <td class="m-1 text-center">2</td>
+                    <td class="m-5 px-5 pb-2">rp30.000</td>
+                  </tr>
+                  <tr>
+                    <td class="m-5 px-5 pb-2">Biaya Express</td>
+                    <td class="m-1 text-center">2</td>
+                    <td class="m-5 px-5 pb-2">rp5.4000</td>
+                  </tr>
+                </tbody>
+              </table>
+            
+        </div>
+        <div class="position-absolute" style="top: 12%; right: 10%;">
+            <p>Nomor Pesanan</p>
+            <p class="text-end">1037123</p>
+        </div>
+        <div class="position-absolute p-1 rounded" style="top: 25%; right: 11%; background-color: white; color: red;">Proses Pembayaran</div>
+        <div class="position-absolute p-1 rounded" style="top: 35%; right: 10%; background-color: white;">
+            <span>Pilih Metode Pembayaran <hr></span>
+            <span>Transfer</span>
+            <br>
+            <br>
+            <span"><a style="text-decoration: none; color: black;" href="order.html">Qris</a></span>
+            <br>
+            <br>
+            <span>Bayar ditempat</span>
+        </div>
+
+        <div class="position-absolute" style="width: 40%; bottom: 25%; left: 15%;"><span style="margin-right: 30%;">Paket Express</span> <span>10 % dari total Laundry</span><hr><span style="margin-right: 30%; color: red;">Total Sementara</span> <span class="fw-bold" style="color: red; font-size: 30px;">Rp59.400</span> </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script defer src="/script.js"></script>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html
